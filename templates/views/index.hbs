@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{>header}}
+
+<body>
+    <div class="container-fluid main-navbar">
+        
+        {{>navbar}}
+
+        <div class="container-fluid main-header">
+            <div class="row">
+                <div class="col-md-10 m-auto">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5 main-header-content">
+                            <p>Welcome To Weather App</p>
+                            <p class="telling fs-2">Get The Latest <span>Weather</span> Info of Your <br>City</p>
+                            <a href="/weather"><button class="checknow rounded-pill h-auto  text-center ">Check
+                                    Now</button></a>
+                        </div>
+                        <div class="col-md-5 main-header-image">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active overflow-hidden">
+                                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/news-anchor-giving-weather-forecast-5705952-4759565.png?f=webp"
+                                            class="d-block w-60" alt="...">
+                                    </div>
+                                    <div class="carousel-item overflow-hidden">
+                                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/weather-forecast-news-by-news-anchor-2183078-1830503.png?f=webp"
+                                            class="d-block w-60" alt="...">
+                                    </div>
+                                    <div class="carousel-item overflow-hidden">
+                                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/weather-forecast-4619009-3837795.png"
+                                            class="d-block w-60" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
